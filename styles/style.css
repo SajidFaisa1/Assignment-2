@@ -201,7 +201,98 @@
  End Of Middle Body
  -------------------- */
 
+ /*----------------
+  Star Of Down Body 
+  -----------------*/
+ .down-start{
+    padding-left: 240px;
+ }
 
+ .down-head{
+    font-size: 2.90em;
+    font-weight: 700;
+ }
+
+ .achievements{
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 124px;
+ }
+.achievement{
+    /* border: 1px solid black; */
+    padding: 45px;
+    margin-top: 10px;
+    padding-bottom: 60px;
+    border-radius: 5px;
+    border: 1px solid #FF900E;
+    transition: 1s;
+    
+}
+.achievement:hover{
+    background-color:#ff8f0e3d;
+    box-shadow: #FF900E  0px 20px 40px;
+}
+
+.total-achievement{
+    font-weight: 600;
+    font-size: 2.90em;
+    padding: 0;
+    margin: 0;
+    color: #424242;
+
+}
+.achievement-name{
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    color:  #a4a2a2;
+}
+
+
+/* Sponsor Part */
+.sponsors{
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 50px;
+    text-align: center;
+}
+.sponsor-head{
+    margin-top: 180px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.sponsor-info{
+    color: #727272;
+    font-size: 1em;
+}
+.sponsors-logos{
+    display: flex;
+    gap: 155px;
+}
+.sponsors-logo{
+    filter: grayscale(100%);
+}
+/* Sponsoer Part End */
+
+footer p{
+    background-color: #FFF4E7;
+    text-align: center;
+    width: 70%;
+    font: 1.25em;
+    color:  #424242;
+    
+    padding-top: 39px;
+    padding-bottom: 35px;
+    border-radius: 8px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 169px;
+}
 
 
 
@@ -294,5 +385,33 @@
 .bold{
     font-size: 2em;
 }
-}
+
 /* Responsive Middle Body End */
+/* Responsive Down Starts */
+.achievements{
+    flex-direction: column;
+}
+.down-start{
+    padding: 0;
+}
+.sponsors-logos{
+    flex-direction: column;
+}
+/* Responsive Down End */
+
+
+
+/* Responsive Footer Star */
+footer{
+    padding: 0;
+}
+footer p{
+    width: 100%;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* Responsive Footer End */
+
+
+}
